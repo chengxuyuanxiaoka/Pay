@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD219C8F1E0BC9F700E36E33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD219C8E1E0BC9F700E36E33 /* main.m */; };
+		BD219C921E0BC9F700E36E33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD219C911E0BC9F700E36E33 /* AppDelegate.m */; };
+		BD219C981E0BC9F700E36E33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD219C961E0BC9F700E36E33 /* Main.storyboard */; };
+		BD219C9A1E0BC9F700E36E33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD219C991E0BC9F700E36E33 /* Assets.xcassets */; };
+		BD219C9D1E0BC9F700E36E33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD219C9B1E0BC9F700E36E33 /* LaunchScreen.storyboard */; };
+		BD219CA81E0BC9F700E36E33 /* PaySDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD219CA71E0BC9F700E36E33 /* PaySDKTests.m */; };
+		BD219CB31E0BC9F700E36E33 /* PaySDKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD219CB21E0BC9F700E36E33 /* PaySDKUITests.m */; };
+		BD219CD01E0BCA0300E36E33 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD219CC11E0BCA0300E36E33 /* FirstViewController.m */; };
+		BD219CD11E0BCA0300E36E33 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD219CC31E0BCA0300E36E33 /* SecondViewController.m */; };
+		BD219CD21E0BCA0300E36E33 /* PayAndReddem.m in Sources */ = {isa = PBXBuildFile; fileRef = BD219CC51E0BCA0300E36E33 /* PayAndReddem.m */; };
+		BD219CD31E0BCA0300E36E33 /* UserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD219CC71E0BCA0300E36E33 /* UserInfoModel.m */; };
+		BD219CD41E0BCA0300E36E33 /* PayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD219CC91E0BCA0300E36E33 /* PayModel.m */; };
+		BD219CD51E0BCA0300E36E33 /* ResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD219CCB1E0BCA0300E36E33 /* ResultModel.m */; };
+		BD219CD61E0BCA0300E36E33 /* ThridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD219CCD1E0BCA0300E36E33 /* ThridViewController.m */; };
+		BD219CD71E0BCA0300E36E33 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD219CCF1E0BCA0300E36E33 /* FourthViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD219CA41E0BC9F700E36E33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD219C821E0BC9F700E36E33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD219C891E0BC9F700E36E33;
+			remoteInfo = PaySDK;
+		};
+		BD219CAF1E0BC9F700E36E33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD219C821E0BC9F700E36E33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD219C891E0BC9F700E36E33;
+			remoteInfo = PaySDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD219C8A1E0BC9F700E36E33 /* PaySDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaySDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD219C8E1E0BC9F700E36E33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD219C901E0BC9F700E36E33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD219C911E0BC9F700E36E33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD219C971E0BC9F700E36E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD219C991E0BC9F700E36E33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD219C9C1E0BC9F700E36E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD219C9E1E0BC9F700E36E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD219CA31E0BC9F700E36E33 /* PaySDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaySDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD219CA71E0BC9F700E36E33 /* PaySDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaySDKTests.m; sourceTree = "<group>"; };
+		BD219CA91E0BC9F700E36E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD219CAE1E0BC9F700E36E33 /* PaySDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaySDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD219CB21E0BC9F700E36E33 /* PaySDKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaySDKUITests.m; sourceTree = "<group>"; };
+		BD219CB41E0BC9F700E36E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD219CC01E0BCA0300E36E33 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		BD219CC11E0BCA0300E36E33 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		BD219CC21E0BCA0300E36E33 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		BD219CC31E0BCA0300E36E33 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		BD219CC41E0BCA0300E36E33 /* PayAndReddem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayAndReddem.h; sourceTree = "<group>"; };
+		BD219CC51E0BCA0300E36E33 /* PayAndReddem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayAndReddem.m; sourceTree = "<group>"; };
+		BD219CC61E0BCA0300E36E33 /* UserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoModel.h; sourceTree = "<group>"; };
+		BD219CC71E0BCA0300E36E33 /* UserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoModel.m; sourceTree = "<group>"; };
+		BD219CC81E0BCA0300E36E33 /* PayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayModel.h; sourceTree = "<group>"; };
+		BD219CC91E0BCA0300E36E33 /* PayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayModel.m; sourceTree = "<group>"; };
+		BD219CCA1E0BCA0300E36E33 /* ResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultModel.h; sourceTree = "<group>"; };
+		BD219CCB1E0BCA0300E36E33 /* ResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultModel.m; sourceTree = "<group>"; };
+		BD219CCC1E0BCA0300E36E33 /* ThridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThridViewController.h; sourceTree = "<group>"; };
+		BD219CCD1E0BCA0300E36E33 /* ThridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThridViewController.m; sourceTree = "<group>"; };
+		BD219CCE1E0BCA0300E36E33 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		BD219CCF1E0BCA0300E36E33 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD219C871E0BC9F700E36E33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD219CA01E0BC9F700E36E33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD219CAB1E0BC9F700E36E33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD219C811E0BC9F700E36E33 = {
+			isa = PBXGroup;
+			children = (
+				BD219C8C1E0BC9F700E36E33 /* PaySDK */,
+				BD219CA61E0BC9F700E36E33 /* PaySDKTests */,
+				BD219CB11E0BC9F700E36E33 /* PaySDKUITests */,
+				BD219C8B1E0BC9F700E36E33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD219C8B1E0BC9F700E36E33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD219C8A1E0BC9F700E36E33 /* PaySDK.app */,
+				BD219CA31E0BC9F700E36E33 /* PaySDKTests.xctest */,
+				BD219CAE1E0BC9F700E36E33 /* PaySDKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD219C8C1E0BC9F700E36E33 /* PaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				BD219CD81E0BCA3C00E36E33 /* sdk */,
+				BD219CC01E0BCA0300E36E33 /* FirstViewController.h */,
+				BD219CC11E0BCA0300E36E33 /* FirstViewController.m */,
+				BD219CC21E0BCA0300E36E33 /* SecondViewController.h */,
+				BD219CC31E0BCA0300E36E33 /* SecondViewController.m */,
+				BD219CC41E0BCA0300E36E33 /* PayAndReddem.h */,
+				BD219CC61E0BCA0300E36E33 /* UserInfoModel.h */,
+				BD219C901E0BC9F700E36E33 /* AppDelegate.h */,
+				BD219C911E0BC9F700E36E33 /* AppDelegate.m */,
+				BD219C961E0BC9F700E36E33 /* Main.storyboard */,
+				BD219C991E0BC9F700E36E33 /* Assets.xcassets */,
+				BD219C9B1E0BC9F700E36E33 /* LaunchScreen.storyboard */,
+				BD219C9E1E0BC9F700E36E33 /* Info.plist */,
+				BD219C8D1E0BC9F700E36E33 /* Supporting Files */,
+			);
+			path = PaySDK;
+			sourceTree = "<group>";
+		};
+		BD219C8D1E0BC9F700E36E33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD219C8E1E0BC9F700E36E33 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD219CA61E0BC9F700E36E33 /* PaySDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD219CA71E0BC9F700E36E33 /* PaySDKTests.m */,
+				BD219CA91E0BC9F700E36E33 /* Info.plist */,
+			);
+			path = PaySDKTests;
+			sourceTree = "<group>";
+		};
+		BD219CB11E0BC9F700E36E33 /* PaySDKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD219CB21E0BC9F700E36E33 /* PaySDKUITests.m */,
+				BD219CB41E0BC9F700E36E33 /* Info.plist */,
+			);
+			path = PaySDKUITests;
+			sourceTree = "<group>";
+		};
+		BD219CD81E0BCA3C00E36E33 /* sdk */ = {
+			isa = PBXGroup;
+			children = (
+				BD219CC81E0BCA0300E36E33 /* PayModel.h */,
+				BD219CC91E0BCA0300E36E33 /* PayModel.m */,
+				BD219CCA1E0BCA0300E36E33 /* ResultModel.h */,
+				BD219CCB1E0BCA0300E36E33 /* ResultModel.m */,
+				BD219CCC1E0BCA0300E36E33 /* ThridViewController.h */,
+				BD219CCD1E0BCA0300E36E33 /* ThridViewController.m */,
+				BD219CCE1E0BCA0300E36E33 /* FourthViewController.h */,
+				BD219CCF1E0BCA0300E36E33 /* FourthViewController.m */,
+				BD219CC51E0BCA0300E36E33 /* PayAndReddem.m */,
+				BD219CC71E0BCA0300E36E33 /* UserInfoModel.m */,
+			);
+			name = sdk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD219C891E0BC9F700E36E33 /* PaySDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD219CB71E0BC9F700E36E33 /* Build configuration list for PBXNativeTarget "PaySDK" */;
+			buildPhases = (
+				BD219C861E0BC9F700E36E33 /* Sources */,
+				BD219C871E0BC9F700E36E33 /* Frameworks */,
+				BD219C881E0BC9F700E36E33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaySDK;
+			productName = PaySDK;
+			productReference = BD219C8A1E0BC9F700E36E33 /* PaySDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD219CA21E0BC9F700E36E33 /* PaySDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD219CBA1E0BC9F700E36E33 /* Build configuration list for PBXNativeTarget "PaySDKTests" */;
+			buildPhases = (
+				BD219C9F1E0BC9F700E36E33 /* Sources */,
+				BD219CA01E0BC9F700E36E33 /* Frameworks */,
+				BD219CA11E0BC9F700E36E33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD219CA51E0BC9F700E36E33 /* PBXTargetDependency */,
+			);
+			name = PaySDKTests;
+			productName = PaySDKTests;
+			productReference = BD219CA31E0BC9F700E36E33 /* PaySDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD219CAD1E0BC9F700E36E33 /* PaySDKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD219CBD1E0BC9F700E36E33 /* Build configuration list for PBXNativeTarget "PaySDKUITests" */;
+			buildPhases = (
+				BD219CAA1E0BC9F700E36E33 /* Sources */,
+				BD219CAB1E0BC9F700E36E33 /* Frameworks */,
+				BD219CAC1E0BC9F700E36E33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD219CB01E0BC9F700E36E33 /* PBXTargetDependency */,
+			);
+			name = PaySDKUITests;
+			productName = PaySDKUITests;
+			productReference = BD219CAE1E0BC9F700E36E33 /* PaySDKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD219C821E0BC9F700E36E33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "一米阳光";
+				TargetAttributes = {
+					BD219C891E0BC9F700E36E33 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BD219CA21E0BC9F700E36E33 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BD219C891E0BC9F700E36E33;
+					};
+					BD219CAD1E0BC9F700E36E33 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BD219C891E0BC9F700E36E33;
+					};
+				};
+			};
+			buildConfigurationList = BD219C851E0BC9F700E36E33 /* Build configuration list for PBXProject "PaySDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD219C811E0BC9F700E36E33;
+			productRefGroup = BD219C8B1E0BC9F700E36E33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD219C891E0BC9F700E36E33 /* PaySDK */,
+				BD219CA21E0BC9F700E36E33 /* PaySDKTests */,
+				BD219CAD1E0BC9F700E36E33 /* PaySDKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD219C881E0BC9F700E36E33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD219C9D1E0BC9F700E36E33 /* LaunchScreen.storyboard in Resources */,
+				BD219C9A1E0BC9F700E36E33 /* Assets.xcassets in Resources */,
+				BD219C981E0BC9F700E36E33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD219CA11E0BC9F700E36E33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD219CAC1E0BC9F700E36E33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD219C861E0BC9F700E36E33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD219CD61E0BCA0300E36E33 /* ThridViewController.m in Sources */,
+				BD219CD51E0BCA0300E36E33 /* ResultModel.m in Sources */,
+				BD219CD41E0BCA0300E36E33 /* PayModel.m in Sources */,
+				BD219CD11E0BCA0300E36E33 /* SecondViewController.m in Sources */,
+				BD219CD31E0BCA0300E36E33 /* UserInfoModel.m in Sources */,
+				BD219CD71E0BCA0300E36E33 /* FourthViewController.m in Sources */,
+				BD219CD21E0BCA0300E36E33 /* PayAndReddem.m in Sources */,
+				BD219C921E0BC9F700E36E33 /* AppDelegate.m in Sources */,
+				BD219C8F1E0BC9F700E36E33 /* main.m in Sources */,
+				BD219CD01E0BCA0300E36E33 /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD219C9F1E0BC9F700E36E33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD219CA81E0BC9F700E36E33 /* PaySDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD219CAA1E0BC9F700E36E33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD219CB31E0BC9F700E36E33 /* PaySDKUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD219CA51E0BC9F700E36E33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD219C891E0BC9F700E36E33 /* PaySDK */;
+			targetProxy = BD219CA41E0BC9F700E36E33 /* PBXContainerItemProxy */;
+		};
+		BD219CB01E0BC9F700E36E33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD219C891E0BC9F700E36E33 /* PaySDK */;
+			targetProxy = BD219CAF1E0BC9F700E36E33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD219C961E0BC9F700E36E33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD219C971E0BC9F700E36E33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD219C9B1E0BC9F700E36E33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD219C9C1E0BC9F700E36E33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD219CB51E0BC9F700E36E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD219CB61E0BC9F700E36E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD219CB81E0BC9F700E36E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PaySDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.PaySDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD219CB91E0BC9F700E36E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PaySDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.PaySDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD219CBB1E0BC9F700E36E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PaySDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.PaySDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaySDK.app/PaySDK";
+			};
+			name = Debug;
+		};
+		BD219CBC1E0BC9F700E36E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PaySDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.PaySDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaySDK.app/PaySDK";
+			};
+			name = Release;
+		};
+		BD219CBE1E0BC9F700E36E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PaySDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.PaySDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PaySDK;
+			};
+			name = Debug;
+		};
+		BD219CBF1E0BC9F700E36E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PaySDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.PaySDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PaySDK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD219C851E0BC9F700E36E33 /* Build configuration list for PBXProject "PaySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD219CB51E0BC9F700E36E33 /* Debug */,
+				BD219CB61E0BC9F700E36E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD219CB71E0BC9F700E36E33 /* Build configuration list for PBXNativeTarget "PaySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD219CB81E0BC9F700E36E33 /* Debug */,
+				BD219CB91E0BC9F700E36E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD219CBA1E0BC9F700E36E33 /* Build configuration list for PBXNativeTarget "PaySDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD219CBB1E0BC9F700E36E33 /* Debug */,
+				BD219CBC1E0BC9F700E36E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD219CBD1E0BC9F700E36E33 /* Build configuration list for PBXNativeTarget "PaySDKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD219CBE1E0BC9F700E36E33 /* Debug */,
+				BD219CBF1E0BC9F700E36E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD219C821E0BC9F700E36E33 /* Project object */;
+}
